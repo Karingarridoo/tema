@@ -1,5 +1,5 @@
 :root {
-  --cor-primaria: #8F3DF2;
+  --cor-primaria: #8f3df2;
   --cor-primaria-escura: #460e8a;
   --fundoa: #eeefff;
   --fundob: #ffffff;
@@ -60,18 +60,6 @@ p {
   display: grid;
   gap: 60px;
   justify-items: center;
-  position: relative;
-}
-
-.header::before {
-  content: "";
-  width: 60px;
-  height: 4px;
-  background-image: url("/img/pingo.png");
-  position: absolute;
-  top: 30px;
-  right: -30px;
-
 }
 
 .menu {
@@ -173,7 +161,7 @@ p {
 }
 
 .vantagens-item:hover {
-  border-color: var(--cor-primaria-escura);
+  border-color: var(--cor-primaria);
 }
 
 .vantagens-item p {
@@ -186,6 +174,7 @@ p {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+  position: relative;
 }
 
 @media (max-width: 1000px) {
