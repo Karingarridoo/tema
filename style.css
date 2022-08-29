@@ -4,7 +4,7 @@
   --fundoa: #eeefff;
   --fundob: #ffffff;
   --texto: #111111;
-  --sutitulo: rgba (0, 0, 0, 0.2);
+  --subtitulo: rgba(0,0,0,0.2);
   --onda: url("./img/onda-clara.svg");
 }
 
@@ -13,7 +13,7 @@
     --fundob: #000000;
     --fundoa: #131226;
     --texto: #ffffff;
-    --sutitulo: rgba (255, 255, 255, 0.2);
+    --subtitulo: rgba(255,255,255,0.2);
     --onda: url("./img/onda-escura.svg");
   }
 }
@@ -135,7 +135,7 @@ p {
 .subtitulo {
   font-size: 4rem;
   text-transform: uppercase;
-  color: var(--sutitulo);
+  color: var(--subtitulo);
   text-align: center;
   padding: 40px;
   align-self: center;
